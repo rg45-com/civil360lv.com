@@ -1,5 +1,16 @@
-_site
+# Mac files
+*.DS_Store
+
+# Cache files
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+
+# Vendor files
 vendor
+
+# Node packages
+node_modules/
+
+# Site Directory
+_site/

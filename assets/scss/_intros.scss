@@ -1,0 +1,83 @@
+// Intro
+#intro-transparent {
+    padding-top: 1rem;
+        
+    .container {
+        position: relative;
+        color: $text-light;
+        display: flex;
+        flex: 1;
+
+        .content {
+            margin-right: 1.5rem;
+            display: flex;
+            flex: 1 50%;
+            flex-direction: column;
+            padding: 10rem 0;
+            max-width: 60%;
+            
+            @include mq('md', $type: max) {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2.75rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                margin: 0;
+            }
+
+            p {
+                font-size: 1rem;
+                font-weight: 400;
+                margin: 2rem 0;
+            }
+
+            .btn {
+                margin-right: .75rem;
+            }
+        }
+    }
+  
+    .box {
+        flex-basis: 33.3333%;
+        padding: 2.5rem 5rem;
+        background-color: rgba($blue-base, .5);
+        color: $text-light;
+        text-align: center;
+
+        @include transition(.5s ease all);
+
+        h4 {
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        a {
+            color: $text-light;
+            font-size: 1rem;
+            text-decoration: underline;
+            opacity: 0;
+
+            @include transition(.5s ease all);
+
+            &:hover {
+                color: $blue-hover;
+            }
+        }
+
+        &:hover {
+            background-color: rgba($orange-hover, .5);
+
+            a {
+                opacity: 1;
+            }
+        }
+    }
+}
