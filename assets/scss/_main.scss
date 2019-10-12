@@ -6,4 +6,13 @@ body {
     font-variant: small-caps;
     font-size: 1rem;
     font-weight: 300;
+
+    a {
+      text-decoration: none;
+      color: $text-dark;
+    }
+
+    a:hover {
+      color: $text-dark;
+    }
 }

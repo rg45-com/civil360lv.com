@@ -71,11 +71,11 @@
     padding: $section-padding;
     
     .container {
-        display: flex;
+        // display: flex;
                 
-        @include mq('sm', $type: max) {
-            flex-direction: column;
-        }
+        // @include mq('sm', $type: max) {
+        //     flex-direction: column;
+        // }
         
         .image {
             img {
@@ -89,7 +89,7 @@
                 align-items: flex-start;
                 justify-content: center;
                 text-align: center;
-                background-color: #ecbe33;
+                background-color: $orange-base;
                 color: #ffffff;
                 padding: 1.25rem;
                 margin-bottom: 1.5rem;

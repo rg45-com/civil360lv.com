@@ -9,6 +9,10 @@ h5 {font-size: .9375rem;}
 h6 {font-size: .875rem;}
 p {font-size: 1rem; font-weight: 300;}
 
+.bold {
+  font-weight: 400;
+}
+
 .dark-link {
   color: $text-dark;
 
@@ -92,7 +96,7 @@ p {font-size: 1rem; font-weight: 300;}
     }
         
     p {
-        font-size: .625rem !important;
-        font-weight: 300;
+        font-size: .9rem !important;
+        font-weight: 400;
     }
 }
