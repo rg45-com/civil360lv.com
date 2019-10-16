@@ -3,7 +3,7 @@
     padding: $section-padding;
     
     &.pattern {
-        background-image: url('/assets/img/about-bg-pattern.png');
+       // background-image: url('/assets/img/about-bg-pattern.png');
     }
     
     p {
@@ -33,7 +33,7 @@
 
 #contact-page {
     padding: $section-padding;
-    background-image: url('/assets/img/about-bg-pattern.png');
+   // background-image: url('/assets/img/about-bg-pattern.png');
     
     .form-control {
         width: 100% !important;

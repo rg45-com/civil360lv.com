@@ -29,7 +29,6 @@
     </div>
   </div>
 
-{% if page.pagename != "home" %}
   <!-- Navigation -->
   <div id="navigation-transparent">
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -43,29 +42,28 @@
           <ul class="navbar-nav mr-auto">
 
             <li class="nav-item {%- if page.pagename == 'home2' %} active{% endif %}">
-              <a class="nav-link" href="/index2.html" role="button">Home</a>
+              <a class="nav-link" href="/" role="button" title="Civil 360 Home">Home</a>
             </li>
 
             <li class="nav-item {%- if page.pagename == 'overview' %} active{% endif %}">
-              <a class="nav-link" href="/company-overview.html">Company Overview</a>
+              <a class="nav-link" href="/company-overview.html" title="Company Overview">Company Overview</a>
             </li>
             
             <li class="nav-item {%- if page.pagename == 'services' %} active{% endif %}">
-              <a class="nav-link" href="/services.html">Services</a>
+              <a class="nav-link" href="/services.html" title="Civil 360 Services">Services</a>
             </li>
 
 
             <li class="nav-item {%- if page.pagename == 'contact' %} active{% endif %}">
-              <a class="nav-link" href="/contact.html">Contact Us</a>
+              <a class="nav-link" href="/contact.html" title="Contact Civil 360">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </div>
-{% endif %}
 
-  {% if page.pagename == "home" or page.pagename == "home2" %}
+  {% if page.pagename == "home" %}
   <!-- Intro Transparent -->
   <div id="intro-transparent">
     <div class="container">

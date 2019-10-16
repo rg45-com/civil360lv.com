@@ -21,9 +21,11 @@
 email: info@civil360lv.com
 phone: (702) 889-6068
 phone_link: +1 702-889-6068
+email_jen: jescobedo@civil360lv.com
+email_om: borphan@civil360lv.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.civil360lv.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
